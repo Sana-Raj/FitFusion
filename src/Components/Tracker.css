@@ -1,0 +1,76 @@
+.container{
+    height: auto;
+    width: 500px;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-bottom: 30px;
+    background-color: rgb(255, 255, 255,0.3);
+} 
+
+h2{
+    font-size: 25px;
+    font-family: comic sans MS;
+}
+
+button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 90px;
+    height: 40px;
+    width: 330px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover{
+    border: solid red;
+    color: white;
+    background-color: black;
+}
+
+input{
+    margin-bottom: 20px;
+    margin-left: 35px;
+    height: 40px;
+    width: 420px;
+    border: solid black;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+#create_task{
+    display: inline;
+    margin-bottom: 30px;
+}
+
+#create_task li{
+    list-style-type: none;
+    margin-left: 25px;
+    height: 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: solid rgb(0, 0, 0,0.5);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+#task_scheduler{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#workout_length{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+}

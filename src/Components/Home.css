@@ -1,0 +1,33 @@
+#home{
+    display: flex;
+}
+
+#word_logo{
+    height: 100px;
+    width: auto;
+}
+
+#welcome{/* Aligns it to the top */
+     /* Aligns it to the left */
+    width: 600px; /* Makes the video occupy half the viewport width */
+    height: 500px;
+    line-height: 3;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px; 
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-family:comic sans MS;
+    color:white;
+}
+
+.fixed-top-left-video {
+     /* Fixes the video in the viewport */
+    margin-top: 10px; /* Aligns it to the top */
+    left: 0; /* Aligns it to the left */
+    width: 600px; /* Makes the video occupy half the viewport width */
+    height: 500px; /* Makes it occupy the full viewport height */
+    object-fit: cover; /* Ensures the video fills its area proportionally */
+    /* Places the video behind other elements */
+    background-color: rgb(17, 17, 48);
+  }
